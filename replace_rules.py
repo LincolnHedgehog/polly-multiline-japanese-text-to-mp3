@@ -3,6 +3,7 @@
 #                                Update : 2025/08/30 17:35JST
 #                                Update : 2025/09/05 08:33JST
 #                                Update : 2025/09/26 07:50JST
+#                                Update : 2025/09/28 17:40JST
 
 # replace_rules.py
 replace_rules = [
@@ -244,6 +245,7 @@ replace_rules = [
     { "target": "Retention", "corrected": " Retention "},
     { "target": "reviewID", "corrected": " review ID "},
     { "target": "（RODC）", "corrected": " （R O D C） "},
+    { "target": "RMSE", "corrected": " R M S E "},    
     { "target": "ROLLBACK", "corrected": " ロールバック "},
     { "target": "Runtime", "corrected": " ランタイム "},
     { "target": " S3 ", "corrected": " エススリー "},

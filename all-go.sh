@@ -36,8 +36,8 @@ export OUTPUT_MP3="./mp3/${KEYWORD}"
 
 sh ./convert-ssml-to-mp3.sh
 
-export INPUT_MP3_DIR="/home/ssm-user/environment/keyword-to-mp3/mp3/${KEYWORD}"
-export OUTPUT_MP3="/home/ssm-user/environment/keyword-to-mp3/mp3/${KEYWORD}/${KEYWORD}.mp3"
+export INPUT_MP3_DIR="${PWD}/mp3/${KEYWORD}"
+export OUTPUT_MP3="${PWD}/mp3/${KEYWORD}/${KEYWORD}.mp3"
 
 sh ./merge-mp3-files.sh
 

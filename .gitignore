@@ -5,3 +5,5 @@ txt/
 json/
 mp3/
 ssml/
+
+__pycache__/
