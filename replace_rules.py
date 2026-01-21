@@ -4,6 +4,8 @@
 #                                Update : 2025/09/05 08:33JST
 #                                Update : 2025/09/26 07:50JST
 #                                Update : 2025/09/28 17:40JST
+#                                Update : 2025/10/14 07:20JST
+#                                Update : 2026/01/18 08:30JST
 
 # replace_rules.py
 replace_rules = [
@@ -154,7 +156,6 @@ replace_rules = [
     { "target": "git rebase", "corrected": " git リベース "},    
     { "target": "GroupDesiredCapacity", "corrected": "グループデザイアドキャパシティ"},
     { "target": "Group", "corrected": " Group "},
-    { "target": "Instances", "corrected": " Instances "},
     { "target": " gp2 ", "corrected": "ジーピーツー"},
     { "target": "hi1.", "corrected": " h i 1 . "},
     { "target": " HA ", "corrected": "エイチエー"},
@@ -166,7 +167,10 @@ replace_rules = [
     { "target": "IAM", "corrected": "アイアム"},
     { "target": "ICMP", "corrected": " I C M P "},
     { "target": "(IdP)", "corrected": " I D P "},
+    { "target": "IdP ", "corrected": " I D P "},
+    { "target": " IdP", "corrected": " I D P "},
     { "target": " IGW ", "corrected": " I G W "},
+    { "target": "Instances", "corrected": " Instances "},
     { "target": "InstanceBootTime", "corrected": "Instance Boot Time"},
     { "target": "instances", "corrected": " インスタンシーズ "},
     { "target": "iptables", "corrected": "アイピーテーブルズ"},
@@ -175,6 +179,7 @@ replace_rules = [
     { "target": "IPAM ", "corrected": " I P A M "},
     { "target": "IPSec ", "corrected": "アイピーセック"},
     { "target": "JSON", "corrected": "ジェイソン"},
+    { "target": "Jupyter", "corrected": "ジュピター"},
     { "target": "Kinesis", "corrected": "キネシス"},
     { "target": " LDAP", "corrected": "エルダップ"},
     { "target": "LegalHold", "corrected": "リーガルホールド"},
@@ -353,6 +358,7 @@ replace_rules = [
     { "target": "根本原因", "corrected": "こんぽんげんいん"},
     { "target": "証跡", "corrected": "しょうせき"},
     { "target": "成果物", "corrected": "せいかぶつ"},
+    { "target": "番目", "corrected": "ばんめ"},
     { "target": "< ", "corrected": "  "}
 
 
