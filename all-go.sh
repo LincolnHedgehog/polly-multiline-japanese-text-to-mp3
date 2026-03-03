@@ -3,6 +3,9 @@
 # テキストファイルをJSON形式に変換するシェルスクリプト
 # 各行を個別のオブジェクトとして、IDとcontentを持つJSON配列に変換します。
 
+# 2026/03/03  インプットTEXTに制御文字が入ると最初のJSONがおかしくなる。この場合は、次のようなsedコマンドでインプットTEXTを修正する。
+#     sed 's/[[:cntrl:]]//g' ./txt/MaruchinTech-SCS-C03-202603-PracticeTest3-1-050lines.txt > ./txt/MaruchinTech-SCS-C03-202603-PracticeTest3-1-050lines_clean2.txt
+
 # 引数チェック
 if [ $# -eq 0 ]; then
     echo "使用方法: $0 <keyword>"
